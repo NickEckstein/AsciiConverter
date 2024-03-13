@@ -24,13 +24,13 @@ def convert(image, type, saveas, scale):
             elif sum(pix[x,y]) in range(100,200):
                 grid[y][x] = "%"
             elif sum(pix[x,y]) in range(200, 300):
-                grid[y][x] = "&"
+                grid[y][x] = "$"
             elif sum(pix[x,y]) in range(300,400):
                 grid[y][x] = "*"
             elif sum(pix[x,y]) in range(400, 500):
                 grid[y][x] = "+"
             elif sum(pix[x,y]) in range(500, 600):
-                grid[y][x] = "/"
+                grid[y][x] = "]"
             elif sum(pix[x,y]) in range(600, 700):
                 grid[y][x] = "("
             elif sum(pix[x,y]) in range(700, 800):
